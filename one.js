@@ -15,3 +15,4 @@ console.log(inc());
 const dec = Counter();
 console.log(dec());
 console.log("Champ is here!!!");
+console.log(dec());

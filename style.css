@@ -2,15 +2,53 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     gap: 20px;
 }
 
-.di{
-    width: 100px;
-    height: 100px;
-    background-color: lightblue;
+main{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 3px;
+    padding: 4px;
+
+}
+main img{
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px gray;
+}
+
+
+main p{
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    max-width: 600px;
+    text-wrap: break-word;
+}
+
+.proj{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: bold;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    text-align: center;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
 }
